@@ -83,7 +83,7 @@ msgstr "Применить шаблон:"
 
 #: photocollage/gtkgui.py:686
 msgid "Border"
-msgstr "Граница"
+msgstr "Рамка"
 
 #: photocollage/gtkgui.py:691
 msgid "Thickness:"
