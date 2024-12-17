@@ -166,8 +166,8 @@ class PhotoCollageWindow(Gtk.Window):
             def __init__(self):
                 self.border_w = 0.01
                 self.border_c = "black"
-                self.out_w = 800
-                self.out_h = 600
+                self.out_w = 1800
+                self.out_h = 1400
                 self.last_visited_dir = None
                 self.last_output_dir = None
 
