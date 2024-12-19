@@ -1,50 +1,47 @@
 # PhotoCollage translation file
-# Copyright (C) 2021 Andrey Novikov <cooking95@yandex.ru>
-# This file is distributed under the same license as the PhotoCollage package.
-# Andrey Novikov <cooking95@yandex.ru>, 2021.
-# Eugene Uvin <eugene.uvin@protonmail.com>, 2021.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PhotoCollage 1.4.3\n"
-"Report-Msgid-Bugs-To: https://github.com/adrienverge/PhotoCollage/issues\n"
-"POT-Creation-Date: 2021-07-02 10:29:47+0500\n"
-"PO-Revision-Date: 2024-12-13 14:57+0300\n"
-"Last-Translator: Andrey Novikov <cooking95@yandex.ru>\n"
-"Language-Team: Andrey Novikov <cooking95@yandex.ru>\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-12-19 23:09+0300\n"
+"PO-Revision-Date: 2024-12-19 23:10+0300\n"
+"Last-Translator: mva <ma12@rambler.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.4\n"
+"X-Poedit-Basepath: ../photocollage\n"
+"X-Poedit-SearchPath-0: gtkgui.py\n"
 
-#: photocollage/gtkgui.py:72 photocollage/gtkgui.py:94
+#: gtkgui.py:72 gtkgui.py:94
 msgid "All supported image formats"
 msgstr "Все поддерживаемые форматы изображений"
 
-#: photocollage/gtkgui.py:104
+#: gtkgui.py:104
 #, python-format
 msgid "%s image"
 msgstr "%s изображение"
 
-#: photocollage/gtkgui.py:161
+#: gtkgui.py:161
 msgid "PhotoCollage"
 msgstr "PhotoCollage"
 
-#: photocollage/gtkgui.py:189
+#: gtkgui.py:191
 msgid "Add images..."
 msgstr "Добавить изображения..."
 
-#: photocollage/gtkgui.py:196
+#: gtkgui.py:198
 msgid "Save poster..."
 msgstr "Сохранить коллаж..."
 
-#: photocollage/gtkgui.py:221
+#: gtkgui.py:223
 msgid "Regenerate"
 msgstr "Генерировать новый"
 
-#: photocollage/gtkgui.py:279
+#: gtkgui.py:285
 #, python-format
 msgid ""
 "This image could not be opened:\n"
@@ -53,54 +50,55 @@ msgstr ""
 "Изображение не удалось открыть:\n"
 "\"%(imgname)s\"."
 
-#: photocollage/gtkgui.py:285
+#: gtkgui.py:292
 msgid "Choose images"
 msgstr "Выбрать изображения"
 
-#: photocollage/gtkgui.py:339 photocollage/gtkgui.py:424
+#: gtkgui.py:344 gtkgui.py:432
 msgid "An error occurred while rendering image:"
 msgstr "При отрисовке изображения произошла ошибка:"
 
-#: photocollage/gtkgui.py:398
+#: gtkgui.py:403
 msgid "Save image"
 msgstr "Сохранить изображение"
 
-#: photocollage/gtkgui.py:622
+#: gtkgui.py:638
 msgid "Settings"
 msgstr "Настройки"
 
-#: photocollage/gtkgui.py:634
+#: gtkgui.py:650
 msgid "Output image size"
 msgstr "Размер выходного изображения"
 
-#: photocollage/gtkgui.py:649
+#: gtkgui.py:665
 msgid "pixels"
 msgstr "пикселей"
 
-#: photocollage/gtkgui.py:673
+#: gtkgui.py:689
 msgid "Apply a template:"
 msgstr "Применить шаблон:"
 
-#: photocollage/gtkgui.py:686
+#: gtkgui.py:702
 msgid "Border"
 msgstr "Рамка"
 
-#: photocollage/gtkgui.py:691
+#: gtkgui.py:707
 msgid "Thickness:"
 msgstr "Толщина:"
 
-#: photocollage/gtkgui.py:701
+#: gtkgui.py:718
 msgid "Color:"
 msgstr "Цвет:"
 
-#: photocollage/gtkgui.py:740
+#: gtkgui.py:757
 msgid "Please wait"
 msgstr "Пожалуйста, подождите"
 
-#: photocollage/gtkgui.py:749
+#: gtkgui.py:766
 msgid "Performing image computation..."
 msgstr "Выполнение вычисления изображений..."
 
-#: photocollage/gtkgui.py:764
+#: gtkgui.py:781
 msgid "Error"
 msgstr "Ошибка"
+
