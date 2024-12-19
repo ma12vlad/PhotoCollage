@@ -96,7 +96,7 @@ msgstr "Пожалуйста, подождите"
 
 #: gtkgui.py:766
 msgid "Performing image computation..."
-msgstr "Выполнение вычисления изображений..."
+msgstr "Создание коллажа..."
 
 #: gtkgui.py:781
 msgid "Error"
